@@ -1,5 +1,6 @@
 arduino-lilypadusb (1.0.0) uecide; urgency=low
 
-  * Initial Release.
+  * Initial Import
 
- -- Matt Jenkins <matt@majenko.co.uk>  Sat, 31 Jan 2015 21:33:23 +0000
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 25 Aug 2015 23:25:19 +0100
+

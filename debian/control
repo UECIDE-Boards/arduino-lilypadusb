@@ -11,6 +11,7 @@ Package: arduino-lilypadusb
 Section: boards
 Architecture: all
 XBSC-Group: Arduino
+XBSC-Subgroup: Lilypad
 Depends: arduino
 Description: LilyPad Arduino USB
  The LilyPad Arduino USB is a microcontroller board based on the ATmega32u4.
