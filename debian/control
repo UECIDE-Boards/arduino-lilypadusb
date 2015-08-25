@@ -1,0 +1,31 @@
+Source: arduino-lilypadusb
+Section: boards
+XBSC-Family: avr
+Priority: optional
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://arduino.cc/en/Main/ArduinoBoardLilyPadUSB
+
+Package: arduino-lilypadusb
+Section: boards
+Architecture: all
+XBSC-Group: Arduino
+Depends: arduino
+Description: LilyPad Arduino USB
+ The LilyPad Arduino USB is a microcontroller board based on the ATmega32u4.
+ It has 9 digital input/output pins (of which 4 can be used as PWM outputs and
+ 4 as analog inputs), an 8 MHz resonator, a micro USB connection, a JST connector
+ for a 3.7V LiPo battery, and a reset button. It contains everything needed to
+ support the microcontroller; simply connect it to a computer with a USB cable
+ or power it with a battery to get started.
+ .
+ The LilyPad Arduino USB differs from previous LilyPad boards in that the
+ ATmega32u4 has built-in USB communication, eliminating the need for a separate
+ USB-to-serial adapter. This allows the LilyPad Arduino USB to appear to a
+ connected computer as a mouse and keyboard, in addition to a virtual (CDC)
+ serial / COM port. It also has other implications for the behavior of the
+ board; these are detailed on the getting started page.
+
+
+

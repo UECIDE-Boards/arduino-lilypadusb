@@ -1,0 +1,2 @@
+src/board.txt boards/Arduino/arduino-lilypadusb
+src/pins_arduino.h boards/Arduino/arduino-lilypadusb
